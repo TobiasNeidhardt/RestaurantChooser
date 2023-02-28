@@ -3,14 +3,14 @@ sap.ui.define([], function () {
 
     return {
 
-		statusText :  function (sStatus) {
+		statusText :  function (OpeningTime) {
       var resourceBundle = this.getView().getModel("i18n").getResourceBundle();
-      var time = new Date().toLocaleTimeString();new Date().toLocaleTimeString('en-GB', { 
+      var time = new Date().toLocaleTimeString('en-GB', { 
         hour12: false, 
         hour: "numeric", 
         minute: "numeric"});
       
-        if (sStatus >= time) {
+        if (OpeningTime <= time && time <= "20:00" ) {
           return resourceBundle.getText("restaurantStatusA");
           
         }else{

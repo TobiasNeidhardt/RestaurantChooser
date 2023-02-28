@@ -13,6 +13,13 @@
       "Duration": 15,
       "Closed": "Wednesday",
       "OpeningTime": "10:00"
+    },
+    {
+      "Name": "Pizzaria",
+      "Description": "Italienisch",
+      "Duration": 30,
+      "Closed": "Wednesday",
+      "OpeningTime": "17:00"
     }
   ]
 }
