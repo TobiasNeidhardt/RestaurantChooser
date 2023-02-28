@@ -1,0 +1,18 @@
+{
+  "Restaurants": [
+    {
+      "Name": "Pasta E Olio",
+      "Description": "Italienisch",
+      "Duration": 20,
+      "Closed": "Monday",
+      "OpeningTime": "11:45"
+    },
+    {
+      "Name": "Kebab",
+      "Description": "Orientalisch",
+      "Duration": 15,
+      "Closed": "Wednesday",
+      "OpeningTime": "10:00"
+    }
+  ]
+}
