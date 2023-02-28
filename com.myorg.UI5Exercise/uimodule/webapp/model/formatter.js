@@ -3,18 +3,19 @@ sap.ui.define([], function () {
 
     return {
 
-		statusText :  function (OpeningTime) {
-      var resourceBundle = this.getView().getModel("i18n").getResourceBundle();
-      var time = new Date().toLocaleTimeString('en-GB', { 
+		statusText :  function (OpeningTime, Closed) {
+      var actualTime = this.getView().getModel("i18n").getResourceBundle();
+      var time = new Date().toLocaleTimeString('de-de', { 
         hour12: false, 
         hour: "numeric", 
         minute: "numeric"});
       
-        if (OpeningTime <= time && time <= "20:00" ) {
-          return resourceBundle.getText("restaurantStatusA");
-          
+        var day = new Date().toLocaleString('de-de', {  weekday: 'long' });
+      
+        if (OpeningTime <= time && time <= "20:00" && Closed != day ) {
+          return actualTime.getText("restaurantStatusA");
         }else{
-          return resourceBundle.getText("restaurantStatusB");
+          return actualTime.getText("restaurantStatusB");
         }
 		}
 	};

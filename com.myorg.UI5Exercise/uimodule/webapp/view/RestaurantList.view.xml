@@ -5,11 +5,17 @@
                 id="itemId"
                 title="{restaurant>Name}"
                 description="{restaurant>Description}"
-                info="{
-						path: 'restaurant>OpeningTime',
+                info="{ 
+                        parts: [
+                          { path: 'restaurant>OpeningTime' },
+                          { path: 'restaurant>Closed' }
+                        ],
 						formatter: '.formatter.statusText'
 					}"
-                infoState="{= ${path: 'restaurant>OpeningTime', formatter: '.formatter.statusText'} === 'Closed' ? 'Error' : 'Success'}"
+                infoState="{= ${parts: [
+                                { path: 'restaurant>OpeningTime' },
+                                { path: 'restaurant>Closed' }
+                                        ], formatter: '.formatter.statusText'} === 'Closed' ? 'Error' : 'Success'}"
             />
         </items>
     </List>

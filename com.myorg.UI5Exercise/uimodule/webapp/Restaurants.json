@@ -4,21 +4,21 @@
       "Name": "Pasta E Olio",
       "Description": "Italienisch",
       "Duration": 20,
-      "Closed": "Monday",
+      "Closed": "Dienstag",
       "OpeningTime": "11:45"
     },
     {
       "Name": "Kebab",
       "Description": "Orientalisch",
       "Duration": 15,
-      "Closed": "Wednesday",
+      "Closed": "Mittwoch",
       "OpeningTime": "10:00"
     },
     {
       "Name": "Pizzaria",
       "Description": "Italienisch",
       "Duration": 30,
-      "Closed": "Wednesday",
+      "Closed": "Mittwoch",
       "OpeningTime": "17:00"
     }
   ]
