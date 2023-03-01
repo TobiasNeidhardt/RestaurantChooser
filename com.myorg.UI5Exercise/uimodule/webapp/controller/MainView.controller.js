@@ -1,13 +1,23 @@
 sap.ui.define(
-    ["./BaseController"],
+    ["./BaseController",'sap/m/MessageToast'],
     /**
      * @param {typeof sap.ui.core.mvc.Controller} Controller
      */
-    function (Controller) {
+    function (Controller,MessageToast) {
         "use strict";
 
-        return Controller.extend("com.myorg.UI5Exercise.controller.MainView", {
-            onInit: function () {},
+        var PageController = Controller.extend("sap.m.sample.Button.Page", {
+
+            onPress: function (evt) {
+                MessageToast.show("This application shows restaurants near wuerzburg office. It also includes an random restaurant picker.");
+            }
         });
+    
+        return PageController;
+        
     }
 );
+
+
+
+

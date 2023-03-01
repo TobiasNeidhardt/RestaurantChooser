@@ -115,7 +115,7 @@
       }
     },
     "rootView": {
-      "viewName": "com.myorg.UI5Exercise.view.RestaurantList",
+      "viewName": "com.myorg.UI5Exercise.view.MainView",
       "type": "XML",
       "async": true,
       "id": "page"
