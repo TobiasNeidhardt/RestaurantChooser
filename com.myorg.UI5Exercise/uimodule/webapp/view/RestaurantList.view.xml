@@ -1,22 +1,24 @@
 <mvc:View controllerName="com.myorg.UI5Exercise.controller.List" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
-    <List headerText="{i18n>restaurantListTitle}" class="saUiResponsiveMargin" width="auto" items="{restaurant>/Restaurants}">
-        <items>
-            <StandardListItem
-                id="itemId"
-                title="{restaurant>Name}"
-                description="{restaurant>Description}"
-                info="{ 
+    <Page title="" id="RestaurantList">
+        <List headerText="{i18n>restaurantListTitle}" class="saUiResponsiveMargin" width="auto" items="{restaurant>/Restaurants}">
+            <items>
+                <StandardListItem
+                    id="itemId"
+                    title="{restaurant>Name}"
+                    description="{restaurant>Description}"
+                    info="{ 
                         parts: [
                           { path: 'restaurant>OpeningTime' },
                           { path: 'restaurant>Closed' }
                         ],
 						formatter: '.formatter.statusText'
 					}"
-                infoState="{= ${parts: [
+                    infoState="{= ${parts: [
                                 { path: 'restaurant>OpeningTime' },
                                 { path: 'restaurant>Closed' }
                                         ], formatter: '.formatter.statusText'} === 'Closed' ? 'Error' : 'Success'}"
-            />
-        </items>
-    </List>
+                />
+            </items>
+        </List>
+    </Page>
 </mvc:View>

@@ -1,26 +1,19 @@
-<mvc:View controllerName="com.myorg.UI5Exercise.controller.MainView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
-    <Page id="Page" title="Title" class="sapUiContentPadding sapUiResponsivePadding--header sapUiResponsivePadding--subHeader sapUiResponsivePadding--content sapUiResponsivePadding--footer" showNavButton="true">
+<mvc:View controllerName="com.myorg.UI5Exercise.controller.MainView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" height="100%">
+    <Page id="app" title="Title" class="sapUiContentPadding sapUiResponsivePadding--header sapUiResponsivePadding--subHeader sapUiResponsivePadding--content sapUiResponsivePadding--footer" showNavButton="true">
         <headerContent>
             <Button icon="sap-icon://information" tooltip="App info" press="onPress" />
         </headerContent>
-        <subHeader>
-            <OverflowToolbar />
-        </subHeader>
-        <content>
-            <VBox>
-                <Text
-                    text="Lorem ipsum dolor st amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat"
-                />
-            </VBox>
-        </content>
-        <footer>
-            <OverflowToolbar>
-                <ToolbarSpacer />
-                <Button text="Accept" type="Accept" />
-                <Button text="Reject" type="Reject" />
-                <Button text="Edit" />
-                <Button text="Delete" />
-            </OverflowToolbar>
-        </footer>
+
+        <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="All Restaurants" subheader="List of restaurants" press="press">
+            <TileContent footer="All restaurants">
+                <ImageContent src="sap-icon://notes" />
+            </TileContent>
+        </GenericTile>
+
+        <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="All Restaurants" subheader="List of restaurants" press="press">
+            <TileContent footer="All restaurants">
+                <ImageContent src="sap-icon://notes" />
+            </TileContent>
+        </GenericTile>
     </Page>
 </mvc:View>
