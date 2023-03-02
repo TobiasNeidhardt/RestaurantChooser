@@ -1,5 +1,5 @@
 <mvc:View controllerName="com.myorg.UI5Exercise.controller.MainView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" height="100%">
-    <Page id="MainView" title="Title" class="sapUiContentPadding sapUiResponsivePadding--header sapUiResponsivePadding--subHeader sapUiResponsivePadding--content sapUiResponsivePadding--footer" showNavButton="true">
+    <Page id="MainView" title="Title" class="sapUiContentPadding sapUiResponsivePadding--header sapUiResponsivePadding--subHeader sapUiResponsivePadding--content sapUiResponsivePadding--footer" showNavButton="false">
         <headerContent>
             <Button icon="sap-icon://information" tooltip="App info" press="onPress" />
         </headerContent>
@@ -10,9 +10,9 @@
             </TileContent>
         </GenericTile>
 
-        <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="All Restaurants" subheader="List of restaurants" press="press">
-            <TileContent footer="All restaurants">
-                <ImageContent src="sap-icon://notes" />
+        <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="Random Restaurant" subheader="Pick random restaurant" press="onPressRandom">
+            <TileContent footer="random restaurant">
+                <ImageContent src="sap-icon://mirrored-task-circle" />
             </TileContent>
         </GenericTile>
     </Page>

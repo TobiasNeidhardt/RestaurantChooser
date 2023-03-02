@@ -85,13 +85,16 @@
           "name": "MainView",
           "pattern": "",
           "target": "MainView"
-          
         },
         {
           "name": "RestaurantList",
           "pattern": "RestaurantList",
-          "target":  "RestaurantList"
-          
+          "target": "RestaurantList"
+        },
+        {
+          "name": "RandomRestaurantPicker",
+          "pattern": "RandomRestaurantPicker",
+          "target": "RandomRestaurantPicker"
         }
       ],
       "targets": {
@@ -102,6 +105,10 @@
         "RestaurantList": {
           "viewId": "RestaurantList",
           "viewName": "RestaurantList"
+        },
+        "RandomRestaurantPicker": {
+          "viewId": "RandomRestaurantPicker",
+          "viewName": "RandomRestaurantPicker"
         }
       }
     },

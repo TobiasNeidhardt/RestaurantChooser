@@ -5,6 +5,11 @@ sap.ui.define(["./BaseController",'sap/m/MessageToast'],
         onPressList: function () {
             this.navTo("RestaurantList");
             //MessageToast.show("This application shows restaurants near wuerzburg office. It also includes an random restaurant picker.");
+        },
+
+        onPressRandom: function () {
+            this.navTo("RandomRestaurantPicker");
+            //MessageToast.show("This application shows restaurants near wuerzburg office. It also includes an random restaurant picker.");
         }
 	});
 });
