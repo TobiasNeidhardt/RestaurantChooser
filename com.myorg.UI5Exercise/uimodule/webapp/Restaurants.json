@@ -3,23 +3,100 @@
     {
       "Name": "Pasta E Olio",
       "Description": "Italienisch",
-      "Duration": 20,
-      "Closed": "Dienstag",
-      "OpeningTime": "11:45"
+      "Duration": 30,
+      "Closed": "",
+      "OpeningTime": "11:00"
     },
     {
       "Name": "Kebab",
       "Description": "Orientalisch",
-      "Duration": 15,
+      "Duration": 20,
       "Closed": "Mittwoch",
+      "OpeningTime": "11:30"
+    },
+    {
+      "Name": "Baran Döner",
+      "Description": "Döner",
+      "Duration": 30,
+      "Closed": "",
+      "OpeningTime": "11:00"
+    },
+    {
+      "Name": "Grieche Würzburg",
+      "Description": "Griechisch",
+      "Duration": 30,
+      "Closed": "",
+      "OpeningTime": "11:00"
+    },
+    {
+      "Name": "Bistro Saigon",
+      "Description": "Asiatisch",
+      "Duration": 30,
+      "Closed": "",
+      "OpeningTime": "11:00"
+    },
+    {
+      "Name": "Sumo Sushi 2",
+      "Description": "Asiatisch",
+      "Duration": 20,
+      "Closed": "",
+      "OpeningTime": "11:00"
+    },
+    {
+      "Name": "Pizzamore",
+      "Description": "Italienisch",
+      "Duration": 25,
+      "Closed": "",
+      "OpeningTime": "11:00"
+    },
+    {
+      "Name": "Kadöffl",
+      "Description": "Deutsch",
+      "Duration": 30,
+      "Closed": "",
+      "OpeningTime": "11:30"
+    },
+    {
+      "Name": "Pepe in Roma",
+      "Description": "Italienisch",
+      "Duration": 25,
+      "Closed": "",
+      "OpeningTime": "11:00"
+    },
+    {
+      "Name": "Hotvolee",
+      "Description": "Burger",
+      "Duration": 25,
+      "Closed": "Monday",
+      "OpeningTime": "11:30"
+    },
+    {
+      "Name": "Bangkok",
+      "Description": "Asiatisch",
+      "Duration": 25,
+      "Closed": "",
+      "OpeningTime": "11:30"
+    },
+    {
+      "Name": "Vrohstoff",
+      "Description": "Vegetarisch",
+      "Duration": 25,
+      "Closed": "",
       "OpeningTime": "10:00"
     },
     {
-      "Name": "Pizzaria",
-      "Description": "Italienisch",
-      "Duration": 30,
-      "Closed": "Mittwoch",
-      "OpeningTime": "17:00"
+      "Name": "Bangkok",
+      "Description": "Asiatisch",
+      "Duration": 25,
+      "Closed": "",
+      "OpeningTime": "11:30"
+    },
+    {
+      "Name": "Kullmanns",
+      "Description": "Burger",
+      "Duration": 25,
+      "Closed": "",
+      "OpeningTime": "11:30"
     }
   ]
 }
