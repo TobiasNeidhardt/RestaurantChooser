@@ -5,7 +5,7 @@ sap.ui.define([
 ], function(Controller, JSONModel, formatter) {
 "use strict";
 
-var ListController = Controller.extend("com.myorg.UI5Exercise.controller.List", {
+var ListController = Controller.extend("com.myorg.UI5Exercise.controller.RestaurantList", {
 
   formatter: formatter,
 

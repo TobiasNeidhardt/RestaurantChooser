@@ -78,44 +78,35 @@
         "async": true,
         "viewPath": "com.myorg.UI5Exercise.view",
         "controlAggregation": "pages",
-        "controlId": "app",
-        "clearControlAggregation": false
+        "controlId": "app"
       },
       "routes": [
         {
-          "name": "RouteMainView",
+          "name": "MainView",
           "pattern": "",
-          "target": [
-            "MainView"
-          ]
+          "target": "MainView"
+          
         },
         {
-          "name": "RouteRestaurantList",
-          "pattern": "",
-          "target": [
-            "RestaurantList"
-          ]
+          "name": "RestaurantList",
+          "pattern": "RestaurantList",
+          "target":  "RestaurantList"
+          
         }
       ],
       "targets": {
         "MainView": {
-          "viewType": "XML",
-          "transition": "slide",
-          "clearControlAggregation": false,
           "viewId": "MainView",
           "viewName": "MainView"
         },
         "RestaurantList": {
-          "viewType": "XML",
-          "transition": "slide",
-          "clearControlAggregation": false,
           "viewId": "RestaurantList",
           "viewName": "RestaurantList"
         }
       }
     },
     "rootView": {
-      "viewName": "com.myorg.UI5Exercise.view.MainView",
+      "viewName": "com.myorg.UI5Exercise.view.App",
       "type": "XML",
       "async": true,
       "id": "app"
