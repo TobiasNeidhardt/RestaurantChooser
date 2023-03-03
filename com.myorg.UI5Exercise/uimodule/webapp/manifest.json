@@ -95,6 +95,11 @@
           "name": "RandomRestaurantPicker",
           "pattern": "RandomRestaurantPicker",
           "target": "RandomRestaurantPicker"
+        },
+        {
+          "name": "DetailView",
+          "pattern": "DetailView/{restaurantPath}",  
+          "target": "DetailView"
         }
       ],
       "targets": {
@@ -109,6 +114,10 @@
         "RandomRestaurantPicker": {
           "viewId": "RandomRestaurantPicker",
           "viewName": "RandomRestaurantPicker"
+        },
+        "DetailView": {
+          "viewId": "DetailView",
+          "viewName": "DetailView"
         }
       }
     },

@@ -1,0 +1,5 @@
+<mvc:View controllerName="com.myorg.UI5Exercise.controller.DetailView" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m" height="100%">
+    <Page title="" showNavButton="true" navButtonPress=".onNavBack">
+        <ObjectHeader responsive="true" fullScreenOptimized="true" intro="{restaurant>id}" title="{restaurant>Name}" />
+    </Page>
+</mvc:View>

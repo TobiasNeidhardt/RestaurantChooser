@@ -3,6 +3,8 @@
         <List headerText="{i18n>restaurantListTitle}" class="saUiResponsiveMargin" width="auto" items="{restaurant>/Restaurants}">
             <items>
                 <StandardListItem
+                    type="Navigation"
+                    press="onPress"
                     id="itemId"
                     title="{restaurant>Name}"
                     description="{restaurant>Description}"

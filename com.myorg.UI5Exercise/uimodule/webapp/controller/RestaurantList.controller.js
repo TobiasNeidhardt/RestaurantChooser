@@ -24,6 +24,16 @@ sap.ui.define([
 				oRouter.navTo("MainView", {}, true);
 			}
 		},
-    
+
+		onPress: function (oEvent) {
+			var oItem = oEvent.getSource();
+			var oRouter = this.getOwnerComponent().getRouter();
+			oRouter.navTo("DetailView", {
+				restaurantPath: window.encodeURIComponent(oItem.getBindingContext("restaurant").getPath().substring(1)) 
+			});
+				// restaurantPath is defined in manifest.xml
+				// router gives information to next page. There it can be get by the next controller. 
+				// In this case DetailView controller
+		}
 	});
 });

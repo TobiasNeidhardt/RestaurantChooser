@@ -1,5 +1,5 @@
 <mvc:View controllerName="com.myorg.UI5Exercise.controller.RandomRestaurantPicker" xmlns="sap.m" xmlns:mvc="sap.ui.core.mvc">
-    <Page title="" id="RestaurantList" showNavButton="true" navButtonPress=".onNavBack" >
+    <Page title="" id="" showNavButton="true" navButtonPress=".onNavBack">
         <List headerText="{i18n>restaurantListTitle}" class="saUiResponsiveMargin" width="auto" items="{restaurant>/Restaurants}">
             <items>
                 <StandardListItem
