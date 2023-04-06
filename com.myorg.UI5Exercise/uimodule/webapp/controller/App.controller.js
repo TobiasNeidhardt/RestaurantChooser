@@ -7,7 +7,9 @@ sap.ui.define(
         "use strict";
 
         return BaseController.extend("com.myorg.UI5Exercise.controller.App", {
-            onInit() {},
+            onInit() {
+               
+            },
         });
     }
 );
